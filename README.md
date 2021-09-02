@@ -9,3 +9,4 @@
 - Alamofire
 
 ## Document API
+The API data are a prototype based on JSONPlaceholder (https://jsonplaceholder.typicode.com/)

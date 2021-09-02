@@ -14,14 +14,14 @@ class DashboardManager: BaseManager {
     var postsUIModel: [PostUIModel] = []
     
     private func getAllPosts() {
-        DashboardService.share.getAllPosts()
+        DashboardService.getAllPosts()
             .onSuccess(callback: { response in
                 self.postsResponseModel = response
                 self.postsUIModel = self.postsResponseModel.map({ (postResponseModel)  in
                     let postUIModel = PostUIModel(postRespModel: postResponseModel)
                     return postUIModel
                 })
-                
+                self.viewControllerDelegate.setModel(posts: self.postsUIModel)
             })
             .onFailure(callback: { error in
                 // TODO: Show Error Alert

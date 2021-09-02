@@ -57,6 +57,7 @@ class BaseViewController <T: BaseManager>: UIViewController, BaseControllerDeleg
         self.spinner.stopAnimating()
         self.loadingView.removeFromSuperview()
     }
+    
 }
 
 

@@ -62,6 +62,30 @@
 		C914905E26E111F5000D7799 /* PostModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914905D26E111F5000D7799 /* PostModels.swift */; };
 		C914905F26E111F5000D7799 /* PostModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914905D26E111F5000D7799 /* PostModels.swift */; };
 		C914906026E111F5000D7799 /* PostModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C914905D26E111F5000D7799 /* PostModels.swift */; };
+		C95A28F626E119B8000F86DA /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A28F426E119B8000F86DA /* DashboardTableViewCell.swift */; };
+		C95A28F726E119B8000F86DA /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A28F426E119B8000F86DA /* DashboardTableViewCell.swift */; };
+		C95A28F826E119B8000F86DA /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A28F426E119B8000F86DA /* DashboardTableViewCell.swift */; };
+		C95A28F926E119B8000F86DA /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95A28F526E119B8000F86DA /* DashboardTableViewCell.xib */; };
+		C95A28FA26E119B8000F86DA /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95A28F526E119B8000F86DA /* DashboardTableViewCell.xib */; };
+		C95A28FB26E119B8000F86DA /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C95A28F526E119B8000F86DA /* DashboardTableViewCell.xib */; };
+		C95A290326E121A3000F86DA /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A290226E121A3000F86DA /* PostDetailViewController.swift */; };
+		C95A290426E121A3000F86DA /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A290226E121A3000F86DA /* PostDetailViewController.swift */; };
+		C95A290526E121A3000F86DA /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A290226E121A3000F86DA /* PostDetailViewController.swift */; };
+		C95A290A26E121B6000F86DA /* PostDetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A290926E121B6000F86DA /* PostDetailManager.swift */; };
+		C95A290B26E121B6000F86DA /* PostDetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A290926E121B6000F86DA /* PostDetailManager.swift */; };
+		C95A290C26E121B6000F86DA /* PostDetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A290926E121B6000F86DA /* PostDetailManager.swift */; };
+		C95A291126E121C3000F86DA /* PostDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A291026E121C3000F86DA /* PostDetailProtocol.swift */; };
+		C95A291226E121C3000F86DA /* PostDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A291026E121C3000F86DA /* PostDetailProtocol.swift */; };
+		C95A291326E121C3000F86DA /* PostDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A291026E121C3000F86DA /* PostDetailProtocol.swift */; };
+		C95A292526E13210000F86DA /* PostAddManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A292426E13210000F86DA /* PostAddManager.swift */; };
+		C95A292626E13210000F86DA /* PostAddManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A292426E13210000F86DA /* PostAddManager.swift */; };
+		C95A292726E13210000F86DA /* PostAddManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A292426E13210000F86DA /* PostAddManager.swift */; };
+		C95A292C26E13220000F86DA /* PostAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A292B26E13220000F86DA /* PostAddViewController.swift */; };
+		C95A292D26E13220000F86DA /* PostAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A292B26E13220000F86DA /* PostAddViewController.swift */; };
+		C95A292E26E13220000F86DA /* PostAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A292B26E13220000F86DA /* PostAddViewController.swift */; };
+		C95A293326E1322F000F86DA /* PostAddProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A293226E1322F000F86DA /* PostAddProtocol.swift */; };
+		C95A293426E1322F000F86DA /* PostAddProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A293226E1322F000F86DA /* PostAddProtocol.swift */; };
+		C95A293526E1322F000F86DA /* PostAddProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A293226E1322F000F86DA /* PostAddProtocol.swift */; };
 		DB66590DBA824B0B15777441 /* Pods_Demo_App_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 084361A9069BCCE49B8DA00F /* Pods_Demo_App_API.framework */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +142,14 @@
 		C914904226E0EB2A000D7799 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		C914904C26E0EF12000D7799 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		C914905D26E111F5000D7799 /* PostModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModels.swift; sourceTree = "<group>"; };
+		C95A28F426E119B8000F86DA /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		C95A28F526E119B8000F86DA /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
+		C95A290226E121A3000F86DA /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		C95A290926E121B6000F86DA /* PostDetailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailManager.swift; sourceTree = "<group>"; };
+		C95A291026E121C3000F86DA /* PostDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailProtocol.swift; sourceTree = "<group>"; };
+		C95A292426E13210000F86DA /* PostAddManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAddManager.swift; sourceTree = "<group>"; };
+		C95A292B26E13220000F86DA /* PostAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAddViewController.swift; sourceTree = "<group>"; };
+		C95A293226E1322F000F86DA /* PostAddProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAddProtocol.swift; sourceTree = "<group>"; };
 		D35DB764CDD5A691F2599E5C /* Pods_Demo_App_API_Demo_App_APIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_App_API_Demo_App_APIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -237,6 +269,7 @@
 			isa = PBXGroup;
 			children = (
 				C9148F8E26E023C7000D7799 /* Dashboard.storyboard */,
+				C95A28F326E11980000F86DA /* Cell */,
 				C9148F8626E02302000D7799 /* Controller */,
 				C9148F8A26E02314000D7799 /* Manager */,
 				C9148F8926E02311000D7799 /* Protocol */,
@@ -250,6 +283,8 @@
 			isa = PBXGroup;
 			children = (
 				C914901F26E02DD9000D7799 /* DashboardViewController.swift */,
+				C95A290226E121A3000F86DA /* PostDetailViewController.swift */,
+				C95A292B26E13220000F86DA /* PostAddViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,6 +309,8 @@
 			isa = PBXGroup;
 			children = (
 				C9148FA926E0240D000D7799 /* DashboardProtocol.swift */,
+				C95A291026E121C3000F86DA /* PostDetailProtocol.swift */,
+				C95A293226E1322F000F86DA /* PostAddProtocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -282,6 +319,8 @@
 			isa = PBXGroup;
 			children = (
 				C9148FA226E023FF000D7799 /* DashboardManager.swift */,
+				C95A290926E121B6000F86DA /* PostDetailManager.swift */,
+				C95A292426E13210000F86DA /* PostAddManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -374,6 +413,15 @@
 				C914900726E02B8E000D7799 /* DemoViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		C95A28F326E11980000F86DA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C95A28F426E119B8000F86DA /* DashboardTableViewCell.swift */,
+				C95A28F526E119B8000F86DA /* DashboardTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		E0ED680767688B7357E234D5 /* Pods */ = {
@@ -511,6 +559,7 @@
 				C9148F5126E020CF000D7799 /* LaunchScreen.storyboard in Resources */,
 				C9148FFB26E02B50000D7799 /* Demo.storyboard in Resources */,
 				C9148F4E26E020CF000D7799 /* Assets.xcassets in Resources */,
+				C95A28F926E119B8000F86DA /* DashboardTableViewCell.xib in Resources */,
 				C9148F8F26E023C7000D7799 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +570,7 @@
 			files = (
 				C9148FF026E029AF000D7799 /* TabBar.storyboard in Resources */,
 				C9148F9026E023C7000D7799 /* Dashboard.storyboard in Resources */,
+				C95A28FA26E119B8000F86DA /* DashboardTableViewCell.xib in Resources */,
 				C9148FFC26E02B50000D7799 /* Demo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +581,7 @@
 			files = (
 				C9148FF126E029AF000D7799 /* TabBar.storyboard in Resources */,
 				C9148F9126E023C7000D7799 /* Dashboard.storyboard in Resources */,
+				C95A28FB26E119B8000F86DA /* DashboardTableViewCell.xib in Resources */,
 				C9148FFD26E02B50000D7799 /* Demo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,19 +697,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				C914902D26E0E5DF000D7799 /* DashBoardService.swift in Sources */,
+				C95A290326E121A3000F86DA /* PostDetailViewController.swift in Sources */,
 				C9148FA326E023FF000D7799 /* DashboardManager.swift in Sources */,
 				C9148FAA26E0240D000D7799 /* DashboardProtocol.swift in Sources */,
 				C9148F4526E020CE000D7799 /* AppDelegate.swift in Sources */,
+				C95A292526E13210000F86DA /* PostAddManager.swift in Sources */,
 				C914904326E0EB2A000D7799 /* EndPoints.swift in Sources */,
 				C914905E26E111F5000D7799 /* PostModels.swift in Sources */,
 				C9148FE226E0298C000D7799 /* TabBarViewController.swift in Sources */,
 				C914904D26E0EF12000D7799 /* CustomError.swift in Sources */,
 				C9148FB226E02498000D7799 /* BaseViewController.swift in Sources */,
+				C95A293326E1322F000F86DA /* PostAddProtocol.swift in Sources */,
+				C95A28F626E119B8000F86DA /* DashboardTableViewCell.swift in Sources */,
+				C95A292C26E13220000F86DA /* PostAddViewController.swift in Sources */,
 				C9148FBC26E024A9000D7799 /* BaseManager.swift in Sources */,
 				C914900826E02B8E000D7799 /* DemoViewController.swift in Sources */,
 				C914902026E02DD9000D7799 /* DashboardViewController.swift in Sources */,
 				C914901926E02BAB000D7799 /* DemoProtocol.swift in Sources */,
 				C914901226E02B9C000D7799 /* DemoManager.swift in Sources */,
+				C95A291126E121C3000F86DA /* PostDetailProtocol.swift in Sources */,
+				C95A290A26E121B6000F86DA /* PostDetailManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,19 +725,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				C914902E26E0E5DF000D7799 /* DashBoardService.swift in Sources */,
+				C95A290426E121A3000F86DA /* PostDetailViewController.swift in Sources */,
 				C9148FBD26E024A9000D7799 /* BaseManager.swift in Sources */,
 				C9148FB326E02498000D7799 /* BaseViewController.swift in Sources */,
 				C9148FAB26E0240D000D7799 /* DashboardProtocol.swift in Sources */,
+				C95A292626E13210000F86DA /* PostAddManager.swift in Sources */,
 				C914904426E0EB2A000D7799 /* EndPoints.swift in Sources */,
 				C914905F26E111F5000D7799 /* PostModels.swift in Sources */,
 				C9148FE326E0298C000D7799 /* TabBarViewController.swift in Sources */,
 				C914904E26E0EF12000D7799 /* CustomError.swift in Sources */,
 				C9148F5C26E020CF000D7799 /* Demo_App_APITests.swift in Sources */,
+				C95A293426E1322F000F86DA /* PostAddProtocol.swift in Sources */,
+				C95A28F726E119B8000F86DA /* DashboardTableViewCell.swift in Sources */,
+				C95A292D26E13220000F86DA /* PostAddViewController.swift in Sources */,
 				C9148FA426E023FF000D7799 /* DashboardManager.swift in Sources */,
 				C914900926E02B8E000D7799 /* DemoViewController.swift in Sources */,
 				C914902126E02DD9000D7799 /* DashboardViewController.swift in Sources */,
 				C914901A26E02BAB000D7799 /* DemoProtocol.swift in Sources */,
 				C914901326E02B9C000D7799 /* DemoManager.swift in Sources */,
+				C95A291226E121C3000F86DA /* PostDetailProtocol.swift in Sources */,
+				C95A290B26E121B6000F86DA /* PostDetailManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,19 +753,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				C914902F26E0E5DF000D7799 /* DashBoardService.swift in Sources */,
+				C95A290526E121A3000F86DA /* PostDetailViewController.swift in Sources */,
 				C9148FBE26E024A9000D7799 /* BaseManager.swift in Sources */,
 				C9148FB426E02498000D7799 /* BaseViewController.swift in Sources */,
 				C9148FAC26E0240D000D7799 /* DashboardProtocol.swift in Sources */,
+				C95A292726E13210000F86DA /* PostAddManager.swift in Sources */,
 				C914904526E0EB2A000D7799 /* EndPoints.swift in Sources */,
 				C914906026E111F5000D7799 /* PostModels.swift in Sources */,
 				C9148FE426E0298C000D7799 /* TabBarViewController.swift in Sources */,
 				C914904F26E0EF12000D7799 /* CustomError.swift in Sources */,
 				C9148F6726E020CF000D7799 /* Demo_App_APIUITests.swift in Sources */,
+				C95A293526E1322F000F86DA /* PostAddProtocol.swift in Sources */,
+				C95A28F826E119B8000F86DA /* DashboardTableViewCell.swift in Sources */,
+				C95A292E26E13220000F86DA /* PostAddViewController.swift in Sources */,
 				C9148FA526E023FF000D7799 /* DashboardManager.swift in Sources */,
 				C914900A26E02B8E000D7799 /* DemoViewController.swift in Sources */,
 				C914902226E02DD9000D7799 /* DashboardViewController.swift in Sources */,
 				C914901B26E02BAB000D7799 /* DemoProtocol.swift in Sources */,
 				C914901426E02B9C000D7799 /* DemoManager.swift in Sources */,
+				C95A291326E121C3000F86DA /* PostDetailProtocol.swift in Sources */,
+				C95A290C26E121B6000F86DA /* PostDetailManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,5 @@
 import Foundation
 
 enum API: String {
-    case getPosts = "https://jsonplaceholder.typicode.com/posts"
-    case getPostOne = "https://jsonplaceholder.typicode.com/posts/1"
+    case urlPosts = "https://jsonplaceholder.typicode.com/posts"
 }

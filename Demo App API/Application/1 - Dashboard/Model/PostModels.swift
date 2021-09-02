@@ -27,3 +27,9 @@ struct PostUIModel: Decodable {
         self.userId = postRespModel.userId
     }
 }
+
+struct PostRequestModel: Decodable {
+    let title: String
+    let body: String
+    let userId: UInt
+}

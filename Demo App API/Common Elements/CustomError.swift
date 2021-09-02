@@ -10,4 +10,5 @@ import Foundation
 import Foundation
 enum CustomError: Error {
     case getPostsError(String)
+    case addPostError(String)
 }
