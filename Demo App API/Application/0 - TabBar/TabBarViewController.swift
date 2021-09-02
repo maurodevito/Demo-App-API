@@ -10,14 +10,16 @@ import UIKit
 class TabBarViewController: UITabBarController {
 
     lazy public var initialTabBar: UINavigationController = {
-        let initialTabBar = UINavigationController()
-        initialTabBar.viewControllers = [DashboardViewController.storyboardInstance()]
+//        let initialTabBar = UINavigationController()
+//        initialTabBar.viewControllers = [DashboardViewController.storyboardInstance()]
 //        let title = "AAAA"
 //        let defaultImage = UIImage(named: "tabItem_Sposi")!
 //        let selectedImage = UIImage(named: "tabItem_invitati")!
 //        let tabBarItems = (title: title, image: defaultImage, selectedImage: selectedImage)
 //        let tabBarItem = UITabBarItem(title: tabBarItems.title, image: tabBarItems.image, selectedImage: tabBarItems.selectedImage)
-        let tabBarItem = UITabBarItem(title: "A", image: nil, selectedImage: nil)
+        
+        let initialTabBar: UINavigationController = DashboardViewController.storyboardInstance()
+        let tabBarItem = UITabBarItem(title: "Alamofire", image: nil, selectedImage: nil)
         initialTabBar.tabBarItem = tabBarItem
         return initialTabBar
     }()
@@ -25,7 +27,7 @@ class TabBarViewController: UITabBarController {
     
     lazy public var demoTabBar: DemoViewController = {
         let demoTabBar = DemoViewController.storyboardIstance()
-        let tabBarItem = UITabBarItem(title: "B", image: nil, selectedImage: nil)
+        let tabBarItem = UITabBarItem(title: "UrlSession", image: nil, selectedImage: nil)
         demoTabBar.tabBarItem = tabBarItem
         return demoTabBar
     }()

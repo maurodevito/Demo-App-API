@@ -9,6 +9,8 @@ import UIKit
 
 class DashboardViewController: BaseViewController<DashboardManager> {
     
+    var posts: [PostUIModel] = []
+    
     static func storyboardInstance() -> UINavigationController {
         let storyboard = UIStoryboard(name: "Dashboard", bundle: nil)
         let navController = (storyboard.instantiateViewController(withIdentifier: "dashboardStoryboardID") as? UINavigationController)!
@@ -19,11 +21,16 @@ class DashboardViewController: BaseViewController<DashboardManager> {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.manager.viewControllerDelegate = self
+        self.manager.viewDidLoad()
     }
     
 }
 
 
 extension DashboardViewController: DashboardControllerDelegate {
+    func setModel(posts: [PostUIModel]) {
+        self.posts = posts
+    }
+    
     
 }

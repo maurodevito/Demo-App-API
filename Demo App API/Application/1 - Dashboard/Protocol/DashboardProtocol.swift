@@ -9,9 +9,9 @@ import Foundation
 
 
 protocol DashboardControllerDelegate: BaseControllerDelegate {
-    
+    func setModel(posts: [PostUIModel])
 }
 
 protocol DashboardManagerDelegate: class {
-    
+    func viewDidLoad()
 }

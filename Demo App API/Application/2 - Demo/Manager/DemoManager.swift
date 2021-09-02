@@ -12,6 +12,6 @@ class DemoManager: BaseManager {
     
 }
 
-extension DemoManager: DashboardManagerDelegate {
-    
+extension DemoManager: DemoManagerDelegate {
+
 }

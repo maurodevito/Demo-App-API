@@ -6,10 +6,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--1-->
+        <!--Dashboard-->
         <scene sceneID="D4i-WD-VdS">
             <objects>
-                <viewControllerPlaceholder id="LPf-fr-72K" userLabel="1" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Dashboard" id="LPf-fr-72K" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="88B-p1-oSP"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="agG-nh-j6d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

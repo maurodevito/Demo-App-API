@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-1184" y="92"/>
         </scene>
-        <!--Dashbboard View Contorller-->
+        <!--Dashboard View Controller-->
         <scene sceneID="eN3-sH-aCh">
             <objects>
-                <viewController id="G9G-ky-nH7" customClass="DashbboardViewContorller" customModule="Demo_App_API" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="G9G-ky-nH7" customClass="DashboardViewController" customModule="Demo_App_API" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="517-7A-9do">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
