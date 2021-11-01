@@ -12,8 +12,8 @@
 		C9148F4526E020CE000D7799 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9148F4426E020CE000D7799 /* AppDelegate.swift */; };
 		C9148F4E26E020CF000D7799 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9148F4D26E020CF000D7799 /* Assets.xcassets */; };
 		C9148F5126E020CF000D7799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9148F4F26E020CF000D7799 /* LaunchScreen.storyboard */; };
-		C9148F5C26E020CF000D7799 /* Demo_App_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9148F5B26E020CF000D7799 /* Demo_App_APITests.swift */; };
-		C9148F6726E020CF000D7799 /* Demo_App_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9148F6626E020CF000D7799 /* Demo_App_APIUITests.swift */; };
+		C9148F5C26E020CF000D7799 /* DemoAppAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9148F5B26E020CF000D7799 /* DemoAppAPITests.swift */; };
+		C9148F6726E020CF000D7799 /* DemoAppAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9148F6626E020CF000D7799 /* DemoAppAPIUITests.swift */; };
 		C9148F8F26E023C7000D7799 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9148F8E26E023C7000D7799 /* Dashboard.storyboard */; };
 		C9148F9026E023C7000D7799 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9148F8E26E023C7000D7799 /* Dashboard.storyboard */; };
 		C9148F9126E023C7000D7799 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9148F8E26E023C7000D7799 /* Dashboard.storyboard */; };
@@ -121,10 +121,10 @@
 		C9148F5026E020CF000D7799 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9148F5226E020CF000D7799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9148F5726E020CF000D7799 /* Demo App APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo App APITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9148F5B26E020CF000D7799 /* Demo_App_APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_App_APITests.swift; sourceTree = "<group>"; };
+		C9148F5B26E020CF000D7799 /* DemoAppAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppAPITests.swift; sourceTree = "<group>"; };
 		C9148F5D26E020CF000D7799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9148F6226E020CF000D7799 /* Demo App APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo App APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9148F6626E020CF000D7799 /* Demo_App_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_App_APIUITests.swift; sourceTree = "<group>"; };
+		C9148F6626E020CF000D7799 /* DemoAppAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppAPIUITests.swift; sourceTree = "<group>"; };
 		C9148F6826E020CF000D7799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9148F8E26E023C7000D7799 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		C9148FA226E023FF000D7799 /* DashboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardManager.swift; sourceTree = "<group>"; };
@@ -216,7 +216,7 @@
 		C9148F5A26E020CF000D7799 /* Demo App APITests */ = {
 			isa = PBXGroup;
 			children = (
-				C9148F5B26E020CF000D7799 /* Demo_App_APITests.swift */,
+				C9148F5B26E020CF000D7799 /* DemoAppAPITests.swift */,
 				C9148F5D26E020CF000D7799 /* Info.plist */,
 			);
 			path = "Demo App APITests";
@@ -225,7 +225,7 @@
 		C9148F6526E020CF000D7799 /* Demo App APIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C9148F6626E020CF000D7799 /* Demo_App_APIUITests.swift */,
+				C9148F6626E020CF000D7799 /* DemoAppAPIUITests.swift */,
 				C9148F6826E020CF000D7799 /* Info.plist */,
 			);
 			path = "Demo App APIUITests";
@@ -459,6 +459,7 @@
 				C9148F3E26E020CE000D7799 /* Frameworks */,
 				C9148F3F26E020CE000D7799 /* Resources */,
 				FA6259C15F8DC642D2045CD7 /* [CP] Embed Pods Frameworks */,
+				C9DC84D926F1E4D000CFB137 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -672,6 +673,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo App API-Demo App APIUITests/Pods-Demo App API-Demo App APIUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C9DC84D926F1E4D000CFB137 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 		FA6259C15F8DC642D2045CD7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -734,7 +752,7 @@
 				C914905F26E111F5000D7799 /* PostModels.swift in Sources */,
 				C9148FE326E0298C000D7799 /* TabBarViewController.swift in Sources */,
 				C914904E26E0EF12000D7799 /* CustomError.swift in Sources */,
-				C9148F5C26E020CF000D7799 /* Demo_App_APITests.swift in Sources */,
+				C9148F5C26E020CF000D7799 /* DemoAppAPITests.swift in Sources */,
 				C95A293426E1322F000F86DA /* PostAddProtocol.swift in Sources */,
 				C95A28F726E119B8000F86DA /* DashboardTableViewCell.swift in Sources */,
 				C95A292D26E13220000F86DA /* PostAddViewController.swift in Sources */,
@@ -762,7 +780,7 @@
 				C914906026E111F5000D7799 /* PostModels.swift in Sources */,
 				C9148FE426E0298C000D7799 /* TabBarViewController.swift in Sources */,
 				C914904F26E0EF12000D7799 /* CustomError.swift in Sources */,
-				C9148F6726E020CF000D7799 /* Demo_App_APIUITests.swift in Sources */,
+				C9148F6726E020CF000D7799 /* DemoAppAPIUITests.swift in Sources */,
 				C95A293526E1322F000F86DA /* PostAddProtocol.swift in Sources */,
 				C95A28F826E119B8000F86DA /* DashboardTableViewCell.swift in Sources */,
 				C95A292E26E13220000F86DA /* PostAddViewController.swift in Sources */,

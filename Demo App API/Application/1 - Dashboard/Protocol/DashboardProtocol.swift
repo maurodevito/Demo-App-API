@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 protocol DashboardControllerDelegate: BaseControllerDelegate {
     func setModel(posts: [PostUIModel])
 }

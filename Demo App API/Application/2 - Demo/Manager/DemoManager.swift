@@ -9,9 +9,7 @@ import Foundation
 
 class DemoManager: BaseManager {
     weak var viewControllerDelegate: DemoControllerDelegate!
-    
 }
 
 extension DemoManager: DemoManagerDelegate {
-
 }

@@ -15,7 +15,6 @@ class DashboardService {
     private init () {
     }
     
-
     static func getAllPosts() -> Future<[PostResponseModel], Error> {
         let promise = Promise<[PostResponseModel], Error>()
         let url = URL(string: API.urlPosts.rawValue)!
@@ -44,8 +43,8 @@ class DashboardService {
         let headers: HTTPHeaders = HTTPHeaders(["Content-Type": "'application/json; charset=UTF-8'"])
         let bodyParameters: [String: Any] = [
             "title": post.title,
-            "body" : post.body,
-            "userId" : post.userId
+            "body": post.body,
+            "userId": post.userId
         ]
         
         AF.request(url,
@@ -54,7 +53,7 @@ class DashboardService {
                    encoding: JSONEncoding.prettyPrinted,
                    headers: headers,
                    interceptor: nil).validate().responseJSON { (response) in
-                    
+
                         if let dic = response.value as? Dictionary<String, UInt> {
                             dic.keys.forEach { (key) in
                                 if key == "id", let id = dic[key]  {

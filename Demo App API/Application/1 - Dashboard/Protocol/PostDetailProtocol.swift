@@ -7,11 +7,9 @@
 
 import Foundation
 
-
 protocol PostDetailControllerDelegate: BaseControllerDelegate {
 
 }
 
 protocol PostDetailManagerDelegate: class {
-    
 }

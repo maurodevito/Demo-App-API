@@ -7,11 +7,8 @@
 
 import Foundation
 
-
 protocol DemoControllerDelegate: BaseControllerDelegate {
-    
 }
 
 protocol DemoManagerDelegate: class {
-    
 }

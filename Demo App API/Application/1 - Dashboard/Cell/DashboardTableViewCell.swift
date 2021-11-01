@@ -12,7 +12,7 @@ class DashboardTableViewCell: UITableViewCell {
     @IBOutlet weak var userIdLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var bodyLabel: UILabel!
-    
+
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -23,12 +23,12 @@ class DashboardTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-    
+
     func setup(item: PostUIModel) {
         self.idLabel.text = String(item.id)
         self.userIdLabel.text = String(item.userId)
         self.titleLabel.text = item.title
         self.bodyLabel.text = item.body
     }
-    
+
 }

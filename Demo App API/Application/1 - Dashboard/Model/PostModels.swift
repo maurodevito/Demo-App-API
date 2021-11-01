@@ -19,7 +19,7 @@ struct PostUIModel: Decodable {
     let title: String
     let body: String
     let userId: UInt
-    
+
     init(postRespModel: PostResponseModel) {
         self.id = postRespModel.id
         self.title = postRespModel.title

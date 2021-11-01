@@ -12,5 +12,4 @@ class PostDetailManager: BaseManager {
 }
 
 extension PostDetailManager: PostDetailManagerDelegate {
-    
 }

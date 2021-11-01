@@ -9,10 +9,10 @@ import Foundation
 
 class DashboardManager: BaseManager {
     weak var viewControllerDelegate: DashboardControllerDelegate!
-    
+
     var postsResponseModel: [PostResponseModel] = []
     var postsUIModel: [PostUIModel] = []
-    
+
     private func getAllPosts() {
         DashboardService.getAllPosts()
             .onSuccess(callback: { response in
